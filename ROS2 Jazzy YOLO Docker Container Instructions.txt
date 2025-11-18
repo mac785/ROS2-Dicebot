@@ -1,0 +1,19 @@
+Steps to make the yolo_ros docker work:
+
+git clone https://github.com/mgonzs13/yolo_ros/tree/main
+
+replace the Dockerfile with the one made by Jamie
+
+run: docker build -t yolo_ros .
+
+Once built, move the docker-compose.yml made by Jamie to the folder
+
+run: docker compose exec ros bash
+
+You are now operating inside the docker container
+
+to echo the topic:
+	ros2 topic echo /dice/sum
+
+to test the joysticks:
+	jstest /dev/input/js0
