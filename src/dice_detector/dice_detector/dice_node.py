@@ -12,7 +12,7 @@ class DiceDetector(Node):
         super().__init__('dice_detector')
 
         # Load YOLO model (replace with your model path or Roboflow URL)
-        weights_path = "/yolo_models/dice.v1i.yolov8/runs/detect/train/weights/best.pt"
+        weights_path = "/root/yolo_models/dice.v1i.yolov8/runs/detect/train/weights/best.pt"
         self.model = YOLO(weights_path)
 
         self.bridge = CvBridge()
