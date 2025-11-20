@@ -13,6 +13,8 @@ class TriggerNode(Node):
         self.latest_sum = None
         self.dpad_up_pressed = False
         self.dpad_down_pressed = False
+        self.dpad_left_pressed = False
+        self.dpad_right_pressed = False
 
         # Subscribe to dice sum
         self.sum_sub = self.create_subscription(
