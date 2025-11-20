@@ -48,7 +48,7 @@ The above graph is labeled by group just as in the above section, with a color k
 ## Preparing the Docker Container
 
 Install Docker if you haven't already  
-Ubuntu steps from the offial [Docker Installation Guide](https://docs.docker.com/engine/install/ubuntu/):
+Ubuntu installation steps from the offial [Docker Installation Guide](https://docs.docker.com/engine/install/ubuntu/):
 ```
 # Add Docker's official GPG key:
 sudo apt update
