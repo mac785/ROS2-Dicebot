@@ -8,7 +8,7 @@ class TriggerNode(Node):
         super().__init__('trigger_node')
 
         self.linear_scale = 0.1
-        self.angular_scale = 1
+        self.angular_scale = 0.1
 
         self.latest_sum = None
         self.dpad_up_pressed = False
