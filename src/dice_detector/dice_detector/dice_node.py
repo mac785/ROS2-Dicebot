@@ -44,7 +44,7 @@ class DiceDetector(Node):
             classes = result.boxes.cls.cpu().numpy()  # predicted class indices
 
             for cls in classes:
-                dice_sum += int(cls) + 1
+                dice_sum += 7 -(int(cls) + 1)
 
         # Publish dice sum
         msg_out = Int32()
