@@ -48,26 +48,9 @@ The above graph is labeled by group just as in the above section, with a color k
 ## Preparing the Docker Container
 
 Install Docker if you haven't already  
-Ubuntu installation steps from the offial [Docker Installation Guide](https://docs.docker.com/engine/install/ubuntu/):
-```
-# Add Docker's official GPG key:
-sudo apt update
-sudo apt install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
+Ubuntu installation steps from the offial [Docker Installation Guide](https://docs.docker.com/engine/install/ubuntu/)
 
-# Add the repository to Apt sources:
-sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
-Types: deb
-URIs: https://download.docker.com/linux/ubuntu
-Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
-Components: stable
-Signed-By: /etc/apt/keyrings/docker.asc
-EOF
-
-sudo apt update
-```
+<img width="3840" height="2160" alt="Docker logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F02%2FDocker-Symbol.png&f=1&nofb=1&ipt=4d20c27695c140709c95310391831ef7f120c0fc9df15b7eb7ca60749a8a55ee" />
 
 Download this package:  
 ```
