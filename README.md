@@ -28,12 +28,24 @@ Once inside the container, you can run the full project with:
 
 Or, if you'd like to run each node individually:  
 
-```ros2 run webcam_publisher webcam_pub```  
-```ros2 run dice_detector dice_node```  
-```ros2 run joy joy_node```  
-```ros2 run dualsense_node dualsense_node```  
-```ros2 run trigger_node trigger_node```  
-```ros2 launch my_robot_bringup my_robot_gazebo.launch.xml```
+```
+ros2 run webcam_publisher webcam_pub
+```  
+```
+ros2 run dice_detector dice_node
+```  
+```
+ros2 run joy joy_node
+```  
+```
+ros2 run dualsense_node dualsense_node
+```  
+```
+ros2 run trigger_node trigger_node
+```  
+```
+ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
+```
 
 
 Once all nodes are online, roll some dice in front of the camera. Then, press directional buttons on the controller (D-Pad). This will move the robot.  
