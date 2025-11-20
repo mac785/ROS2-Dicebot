@@ -1,8 +1,9 @@
 # ROS2-Dice-Roller
 ## Team 12: [Tech-no Logic](https://youtu.be/D8K90hX4PrE?si=nYKRTUP4AQPTekIG)
 
-Presentation link:  
-https://docs.google.com/presentation/d/17dWJg9Xzjme5_viVJAJSdn36DbBFt2w16UpQ6tVTV7M/edit?usp=sharing
+[Google Slides Presentation](https://docs.google.com/presentation/d/17dWJg9Xzjme5_viVJAJSdn36DbBFt2w16UpQ6tVTV7M/edit?usp=sharing)
+
+[Youtube Demo Video](https://youtu.be/4z1GpTMS2zc?si=LoGROI-xu_ae7x18)
 
 ## Project Overview
 
